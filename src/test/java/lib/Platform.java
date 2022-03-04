@@ -105,9 +105,6 @@ public class Platform {
 
         chromeOptions.setAcceptInsecureCerts(true);
 
-        DesiredCapabilities crcapabilities = DesiredCapabilities.chrome();
-        crcapabilities.setCapability(ChromeOptions.CAPABILITY, chromeOptions);
-
         return chromeOptions;
     }
 
