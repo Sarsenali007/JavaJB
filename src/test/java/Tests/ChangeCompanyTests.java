@@ -21,6 +21,7 @@ public class ChangeCompanyTests extends CoreTestCase {
     @Step("Starting test change company")
     @Features(value = {@Feature(value = "Chose_company"), @Feature(value = "Update_Main_page"),})
     @Severity(value = SeverityLevel.BLOCKER)
+
     public void testChangeCompany() throws InterruptedException {
 
         MainFirstPageObject MainFirstPageObject = MainFirstPageObjectFactory.get(driver);
